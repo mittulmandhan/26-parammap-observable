@@ -1,0 +1,13 @@
+In the previous code we used snapshot of the activated route to read route parameter but this approach has a drawback.
+
+Now we will see what the drawbacks are and how to overcome them.
+
+we have added previous and next button in the view.
+
+when we will click the previous button we will go to previous department in the sequence and to next department when click the next button.
+
+drawback of the snapshot approach is that if we click on next or previous button the url changes but the view remains the same.
+
+To change the url and view on the click we use paramMap Observable.
+
+In this code ParamMap observable is added in the department-detail component.
